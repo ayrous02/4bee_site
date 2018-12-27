@@ -1,0 +1,7 @@
+mudanças:
+
+*add o video na pagina principal
+*aumentei o .caixaCadastro
+*mexi no p da CaixaTexto
+*alterei as imagens na section fotos, para maior
+*COLOCAR AQUELAS CAIXINHAS DE MENSAGENS QUE EU COLOQUEI NO MEU SITE!

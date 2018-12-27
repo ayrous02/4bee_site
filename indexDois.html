@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>4Bee Folha</title>
+  <link rel="shortcut icon" href="favicon.ico"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="indexDois.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="indexDois.js" type="text/javascript"></script>
+  <script type="text/javascript" src="jquery-3.2.1.js"></script>
+
+  <script>
+  window.addEventListener('mousewheel', (e) => {
+    if(e.deltaY > 0){
+      window.location = "principal.html";
+    }
+  });
+
+
+  </script>
+
+</head>
+<body>
+
+
+<section id="intro">
+
+<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel  item carousel-caption" data-ride="carousel">
+
+<div id="pensamento">
+<img src="slides/logoNew.png" alt="imagem de um balao com o logo" id="balao" />
+<p id="escrevendo"></p>
+</div>
+
+<div id="caixaTexto">
+<h2>Projeto Final 4º Termo</h2>
+<hr>
+<p id="intro"> O trabalho de conclusão de curso do técnico de informática vem com uma nova proposta para seus alunos. Estes, trabalham com empresas reais no mercado. Conheça aqui um dos projetos. Desenvolvido para a 4bee Folha, a equipe aqui apresentada dedicou seu último semestre para um trabalho de alto calibre. Confira!</p>
+</div>
+<div id="barraMetade">
+</div>
+
+<div id="caixinhaTexto">
+<img src="slides/logoEmpresa.png" alt="logo da empresa">
+</div>
+	</div>
+
+<!--<video id="video-4bee" autoplay="autoplay" loop="loop" muted>
+      <source src="slides/video.mp4" type="video/mp4">
+    </video> -->
+
+<div id="mover">
+<img src="slides/set.png" alt="imagem de uma seta" style="
+      margin-left: 137%;
+    width: 8em;
+    margin-top: 221%;"/>
+    </div>
+
+    <p id="oi">Role para baixo e confira mais sobre o projeto!</p>
+
+    
+
+</div>
+    <!-- Indicators -->
+    <ol class="carousel-indicators" style=" bottom: 0px;">
+      <li data-target="#myCarousel" data-slide-to="0" class="active" id="botao"></li>
+      <li data-target="#myCarousel" data-slide-to="1" id="botaoUm"></li>
+      <li data-target="#myCarousel" data-slide-to="2" id="botaoDois"></li>
+    </ol>
+</div>
+</div>
+</section>
+
+
+
+</body>
+</html>
